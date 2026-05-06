@@ -1,0 +1,23 @@
+[
+    {
+        "id": "AKLEH_KM1",
+        "name": "AKLEH - KM 1.0 (Towards Ampang)",
+        "highway": "AKLEH",
+        "type": "image",
+        "url": "https://www.llm.gov.my/awam/cctv/AKLEH_KM1.jpg"
+    },
+    {
+        "id": "MRR2_AMPANG",
+        "name": "MRR2 - Ampang Point",
+        "highway": "MRR2",
+        "type": "image",
+        "url": "https://www.llm.gov.my/awam/cctv/MRR2_AMPANG.jpg"
+    },
+    {
+        "id": "DUKE_HULU_KELANG",
+        "name": "DUKE - Hulu Kelang (Near Ampang)",
+        "highway": "DUKE",
+        "type": "image",
+        "url": "https://www.llm.gov.my/awam/cctv/DUKE_HK.jpg"
+    }
+]

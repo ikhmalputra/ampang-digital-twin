@@ -1,0 +1,394 @@
+[
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-28",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-27",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-26",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Hujan di beberapa tempat",
+        "summary_forecast": "Hujan di beberapa tempat",
+        "summary_when": "Malam",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-25",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-24",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-23",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Ds058",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-22",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-28",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-27",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-26",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Hujan di beberapa tempat",
+        "summary_forecast": "Hujan di beberapa tempat",
+        "summary_when": "Malam",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-25",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-24",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-23",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "St009",
+            "location_name": "WP Kuala Lumpur"
+        },
+        "date": "2026-04-22",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir di beberapa tempat",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir di beberapa tempat",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-28",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-27",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-26",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Hujan",
+        "summary_forecast": "Hujan",
+        "summary_when": "Malam",
+        "min_temp": 24,
+        "max_temp": 35
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-25",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-24",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-23",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn079",
+            "location_name": "Kuala Lumpur"
+        },
+        "date": "2026-04-22",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-28",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-27",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Tiada hujan",
+        "summary_when": "Sepanjang Hari",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-26",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Tiada hujan",
+        "night_forecast": "Hujan",
+        "summary_forecast": "Hujan",
+        "summary_when": "Malam",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-25",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-24",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-23",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    },
+    {
+        "location": {
+            "location_id": "Tn081",
+            "location_name": "Ampang"
+        },
+        "date": "2026-04-22",
+        "morning_forecast": "Tiada hujan",
+        "afternoon_forecast": "Ribut petir",
+        "night_forecast": "Tiada hujan",
+        "summary_forecast": "Ribut petir",
+        "summary_when": "Petang",
+        "min_temp": 24,
+        "max_temp": 34
+    }
+]

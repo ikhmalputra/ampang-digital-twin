@@ -1,0 +1,20 @@
+[
+    {
+        "station": "Cheras, Kuala Lumpur",
+        "api_value": 52,
+        "status": "Moderate",
+        "timestamp": "2026-04-22 11:56:37.159510"
+    },
+    {
+        "station": "Batu Muda, Kuala Lumpur",
+        "api_value": 48,
+        "status": "Good",
+        "timestamp": "2026-04-22 11:56:37.159520"
+    },
+    {
+        "station": "Petaling Jaya, Selangor",
+        "api_value": 55,
+        "status": "Moderate",
+        "timestamp": "2026-04-22 11:56:37.159521"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "river": "Sungai Ampang",
+        "location": "Ampang Intake",
+        "water_level_m": 31.5,
+        "normal_level_m": 30.0,
+        "danger_level_m": 33.0,
+        "status": "Normal"
+    },
+    {
+        "river": "Sungai Klang",
+        "location": "Lebuhraya PUKE",
+        "water_level_m": 28.1,
+        "normal_level_m": 27.0,
+        "danger_level_m": 29.5,
+        "status": "Alert"
+    }
+]
