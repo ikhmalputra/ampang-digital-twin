@@ -41,24 +41,29 @@ def generate_mock_ampang_lots():
     """Generates a grid of cadastral lots representing Ampang's zoning."""
     features = []
     
-    # Simple grid generator to simulate cadastral plots spanning Ampang
+    import random
+    
     # Ampang bounds: 101.72 to 101.80 (Long), 3.10 to 3.20 (Lat)
     lat_start, lat_end = 3.10, 3.20
     lng_start, lng_end = 101.72, 101.80
-    step = 0.001
     
     lot_id = 1000
     
     lat = lat_start
     while lat < lat_end:
         lng = lng_start
+        # Randomize row height between 15m and 30m (~0.00015 to 0.00030 degrees)
+        row_height = random.uniform(0.00015, 0.00030)
         while lng < lng_end:
-            # Create a small polygon for the lot
+            # Randomize column width between 10m and 25m (~0.00010 to 0.00025 degrees)
+            col_width = random.uniform(0.00010, 0.00025)
+            
+            # Create a small polygon for the lot with a tiny gap (95% of width/height)
             polygon = [[
                 [lng, lat],
-                [lng + step * 0.9, lat],
-                [lng + step * 0.9, lat + step * 0.9],
-                [lng, lat + step * 0.9],
+                [lng + col_width * 0.95, lat],
+                [lng + col_width * 0.95, lat + row_height * 0.95],
+                [lng, lat + row_height * 0.95],
                 [lng, lat]
             ]]
             
@@ -70,7 +75,8 @@ def generate_mock_ampang_lots():
                     "DAERAH": "GOMBAK",
                     "MUKIM": "AMPANG",
                     "UPI": f"100404{lot_id}",
-                    "TARIKH_KEMASKINI": "2024-01-15"
+                    "TARIKH_KEMASKINI": "2024-01-15",
+                    "luas": f"{int(col_width * 111000 * row_height * 111000)} sqm"
                 },
                 "geometry": {
                     "type": "Polygon",
@@ -78,8 +84,8 @@ def generate_mock_ampang_lots():
                 }
             })
             lot_id += 1
-            lng += step
-        lat += step
+            lng += col_width
+        lat += row_height
         
     return {
         "type": "FeatureCollection",

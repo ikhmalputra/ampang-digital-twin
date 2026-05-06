@@ -1000,7 +1000,7 @@ export function CityMap({
         [b.minLng, b.minLat],
         [b.maxLng, b.maxLat],
       ],
-      { padding: 60, duration: 0, pitch: 75, bearing: 30 },
+      { padding: 60, duration: 0, pitch: 0, bearing: 0 },
     )
   }, [boundary])
 
@@ -1628,7 +1628,7 @@ export function CityMap({
               id="land-plots-fill"
               type="fill"
               source-layer="land-plots"
-              minzoom={11}
+              minzoom={12}
               paint={{
                 "fill-color": "#f59e0b",
                 "fill-opacity": 0.1
@@ -1638,7 +1638,7 @@ export function CityMap({
               id="land-plots-line"
               type="line"
               source-layer="land-plots"
-              minzoom={11}
+              minzoom={12}
               paint={{
                 "line-color": "#f59e0b",
                 "line-width": 1,
