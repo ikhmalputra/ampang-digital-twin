@@ -55,7 +55,7 @@ export default function CommandCenterPage() {
     buildings: false,
     boundary: true,
     markers: true,
-    landPlots: true,
+    landPlots: false,
     parks: true,
     water: true,
     pois: false,

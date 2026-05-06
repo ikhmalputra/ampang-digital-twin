@@ -1255,7 +1255,14 @@ export function CityMap({
         mapStyle={baseStyle as any}
         transformRequest={transformRequest}
         onError={handleError}
-        interactiveLayerIds={['overture-buildings-3d', 'roads-line-hover', 'land-plots-fill', 'pois-point', 'aqi-point', 'river-point']}
+        interactiveLayerIds={[
+          effectiveLayerVisibility.buildings && 'overture-buildings-3d',
+          effectiveLayerVisibility.traffic && 'roads-line-hover',
+          effectiveLayerVisibility.landPlots && 'land-plots-fill',
+          effectiveLayerVisibility.pois && 'pois-point',
+          effectiveLayerVisibility.aqi && 'aqi-point',
+          effectiveLayerVisibility.riverLevel && 'river-point'
+        ].filter(Boolean) as string[]}
         cursor={isAnalysisMode ? "crosshair" : cursorState}
         onMouseEnter={() => setCursorState('pointer')}
         onMouseLeave={() => setCursorState("auto")}
@@ -1621,7 +1628,7 @@ export function CityMap({
               id="land-plots-fill"
               type="fill"
               source-layer="land-plots"
-              minzoom={14}
+              minzoom={11}
               paint={{
                 "fill-color": "#f59e0b",
                 "fill-opacity": 0.1
@@ -1631,7 +1638,7 @@ export function CityMap({
               id="land-plots-line"
               type="line"
               source-layer="land-plots"
-              minzoom={14}
+              minzoom={11}
               paint={{
                 "line-color": "#f59e0b",
                 "line-width": 1,
