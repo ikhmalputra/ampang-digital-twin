@@ -103,6 +103,18 @@ export default function WaterPage() {
               markers={markers} 
               simulationMode={parseFloat(rainfall) > 0}
               rainfall={parseFloat(rainfall)}
+              layerVisibility={{
+                buildings: false,
+                traffic: false,
+                markers: true,
+                boundary: true,
+                landPlots: false,
+                parks: false,
+                water: true,
+                pois: false,
+                aqi: false,
+                riverLevel: true
+              }}
             />
           </div>
         </div>

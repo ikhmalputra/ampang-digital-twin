@@ -103,6 +103,18 @@ export default function SafetyPage() {
               onMarkerSelect={() => {}} 
               basemap="dark" 
               markers={markers} 
+              layerVisibility={{
+                buildings: true,
+                traffic: false,
+                markers: true,
+                boundary: true,
+                landPlots: false,
+                parks: false,
+                water: false,
+                pois: false,
+                aqi: false,
+                riverLevel: false
+              }}
             />
           </div>
         </div>

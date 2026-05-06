@@ -128,7 +128,18 @@ export default function AirQualityPage() {
               onMarkerSelect={() => {}} 
               basemap="dark" 
               markers={markers} 
-              liveTraffic={true}
+              layerVisibility={{
+                buildings: false,
+                traffic: false,
+                markers: true,
+                boundary: true,
+                landPlots: false,
+                parks: true,
+                water: false,
+                pois: false,
+                aqi: true,
+                riverLevel: false
+              }}
             />
           </div>
         </div>

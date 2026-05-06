@@ -297,6 +297,7 @@ interface CityMapProps {
     pois: boolean
     aqi: boolean
     riverLevel: boolean
+    bim?: boolean
   }
   onMapClick?: () => void
   simulationMode?: boolean
@@ -760,7 +761,7 @@ export function CityMap({
       }
 
       return layers
-    }, [basemap, simulationMode, rainfall, river, trafficSimulation, developmentSimulation, showUtilities, showDemographics, zoningCompliance])
+    }, [basemap, simulationMode, rainfall, river, trafficSimulation, developmentSimulation, showUtilities, showDemographics, zoningCompliance, bimOverlay, bimData, time, floodGrid, trafficTrips])
 
   const [fetchedStyle, setFetchedStyle] = useState<any>(null)
   const [baseStyle, setBaseStyle] = useState<any>(null)
@@ -798,6 +799,7 @@ export function CityMap({
             ? "https://tiles.openfreemap.org/styles/dark"
             : "https://tiles.openfreemap.org/styles/positron"; // Fallback to positron for light/google3d
           const res = await fetch(styleUrl);
+          if (!res.ok) throw new Error("Failed to fetch openfreemap style");
           styleJson = await res.json();
           // Fix 404 font errors by using a reliable glyphs source
           styleJson.glyphs = "https://demotiles.maplibre.org/font/{fontstack}/{range}.pbf";

@@ -103,7 +103,18 @@ export default function TrafficPage() {
               onMarkerSelect={() => {}} 
               basemap="dark" 
               markers={markers} 
-              liveTraffic={true}
+              layerVisibility={{
+                buildings: false,
+                traffic: true,
+                markers: true,
+                boundary: true,
+                landPlots: false,
+                parks: false,
+                water: false,
+                pois: false,
+                aqi: false,
+                riverLevel: false
+              }}
             />
           </div>
         </div>

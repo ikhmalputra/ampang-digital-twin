@@ -102,6 +102,18 @@ export default function EnergyPage() {
               basemap="dark" 
               markers={markers} 
               showUtilities={true}
+              layerVisibility={{
+                buildings: false,
+                traffic: false,
+                markers: true,
+                boundary: true,
+                landPlots: false,
+                parks: false,
+                water: false,
+                pois: false,
+                aqi: false,
+                riverLevel: false
+              }}
             />
           </div>
         </div>
