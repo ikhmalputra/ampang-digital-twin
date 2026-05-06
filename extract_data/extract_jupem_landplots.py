@@ -41,9 +41,10 @@ def generate_mock_ampang_lots():
     """Generates a grid of cadastral lots representing Ampang's zoning."""
     features = []
     
-    # Simple grid generator to simulate cadastral plots
-    lat_start, lat_end = 3.14, 3.16
-    lng_start, lng_end = 101.74, 101.77
+    # Simple grid generator to simulate cadastral plots spanning Ampang
+    # Ampang bounds: 101.72 to 101.80 (Long), 3.10 to 3.20 (Lat)
+    lat_start, lat_end = 3.10, 3.20
+    lng_start, lng_end = 101.72, 101.80
     step = 0.001
     
     lot_id = 1000
