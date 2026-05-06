@@ -31,3 +31,5 @@ docker/mosquitto/log
 docker/nodered/data
 docker/postgis/data
 
+
+extract_data/*.geojson
